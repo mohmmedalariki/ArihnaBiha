@@ -1,0 +1,264 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "description": "خريطة ربط فئات Gemini بأذكار من حصن المسلم (husn_en.json) وأذكار عربية (azkar.json). لا يُولّد الذكاء الاصطناعي أي نص ديني.",
+    "sources": ["husn_en.json", "azkar.json"],
+    "last_updated": "2026-05-06"
+  },
+
+  "categories": {
+
+    "travel": {
+      "title_ar": "أدعية السفر",
+      "title_en": "Travel Supplications",
+      "emoji": "✈️",
+      "husn_ids": [95, 96, 97, 100, 101, 102, 103, 104, 105],
+      "azkar_category": null,
+      "keywords_en": ["travel", "trip", "flight", "airport", "journey", "vacation", "holiday", "road trip", "departure", "arrival"],
+      "keywords_ar": ["سفر", "رحلة", "طيران", "مطار", "سياحة", "عطلة", "إجازة"]
+    },
+
+    "exam_success": {
+      "title_ar": "دعاء التوفيق والامتحان",
+      "title_en": "Exam & Success Supplications",
+      "emoji": "📖",
+      "husn_ids": [43, 26],
+      "azkar_category": "أدعية قرآنية",
+      "azkar_filter_refs": ["طه - 25-28", "طه - 114"],
+      "keywords_en": ["exam", "test", "study", "university", "school", "quiz", "assignment", "presentation", "defense", "thesis"],
+      "keywords_ar": ["امتحان", "اختبار", "دراسة", "جامعة", "مدرسة", "مذاكرة", "عرض", "بحث"]
+    },
+
+    "health_healing": {
+      "title_ar": "أدعية الشفاء وزيارة المريض",
+      "title_en": "Health & Healing Supplications",
+      "emoji": "🏥",
+      "husn_ids": [49, 50, 124],
+      "azkar_category": null,
+      "keywords_en": ["doctor", "hospital", "clinic", "surgery", "medical", "health", "dentist", "checkup", "therapy", "sick", "illness", "appointment"],
+      "keywords_ar": ["طبيب", "مستشفى", "عيادة", "عملية", "صحة", "مريض", "فحص", "علاج", "موعد طبي"]
+    },
+
+    "meeting": {
+      "title_ar": "دعاء اللقاءات والعمل",
+      "title_en": "Meeting & Work Supplications",
+      "emoji": "💼",
+      "husn_ids": [43, 36, 84, 85],
+      "azkar_category": null,
+      "keywords_en": ["meeting", "interview", "work", "office", "conference", "zoom", "call", "presentation", "negotiation", "business", "client"],
+      "keywords_ar": ["اجتماع", "مقابلة", "عمل", "مكتب", "مؤتمر", "عرض", "تفاوض", "زميل"]
+    },
+
+    "marriage": {
+      "title_ar": "أدعية الزواج",
+      "title_en": "Marriage Supplications",
+      "emoji": "💍",
+      "husn_ids": [79, 80, 81],
+      "azkar_category": null,
+      "keywords_en": ["wedding", "marriage", "engagement", "bride", "groom", "nikah", "walima", "proposal"],
+      "keywords_ar": ["زواج", "خطوبة", "عرس", "نكاح", "وليمة", "عروس"]
+    },
+
+    "newborn": {
+      "title_ar": "أدعية المولود الجديد",
+      "title_en": "Newborn Supplications",
+      "emoji": "👶",
+      "husn_ids": [47, 48],
+      "azkar_category": "أدعية قرآنية",
+      "azkar_filter_refs": ["آل عمران - 38"],
+      "keywords_en": ["baby", "newborn", "birth", "child", "pregnant", "pregnancy", "delivery", "maternity"],
+      "keywords_ar": ["مولود", "ولادة", "طفل", "حمل", "أطفال"]
+    },
+
+    "rain": {
+      "title_ar": "أدعية المطر والرعد والريح",
+      "title_en": "Rain, Thunder & Wind Supplications",
+      "emoji": "🌧️",
+      "husn_ids": [61, 62, 63, 64, 65, 66],
+      "azkar_category": null,
+      "keywords_en": ["rain", "storm", "thunder", "wind", "weather", "flood", "hurricane"],
+      "keywords_ar": ["مطر", "رعد", "ريح", "عاصفة", "طقس"]
+    },
+
+    "general_stress": {
+      "title_ar": "أدعية الكرب والهم والحزن",
+      "title_en": "Stress, Worry & Grief Supplications",
+      "emoji": "😔",
+      "husn_ids": [34, 35, 46, 30],
+      "azkar_category": "أدعية قرآنية",
+      "azkar_filter_refs": ["الأنبياء - 87"],
+      "keywords_en": ["stress", "anxiety", "worried", "sad", "depressed", "grief", "loss", "difficult", "hard time", "trouble", "problem"],
+      "keywords_ar": ["كرب", "هم", "حزن", "قلق", "ضيق", "مشكلة", "صعوبة"]
+    },
+
+    "friday": {
+      "title_ar": "سنن يوم الجمعة",
+      "title_en": "Friday Supplications",
+      "emoji": "🕌",
+      "husn_ids": [107],
+      "azkar_category": null,
+      "keywords_en": ["friday", "jummah", "jumuah", "khutbah"],
+      "keywords_ar": ["جمعة", "خطبة"]
+    },
+
+    "morning": {
+      "title_ar": "أذكار الصباح",
+      "title_en": "Morning Remembrance",
+      "emoji": "🌅",
+      "husn_ids": [27],
+      "azkar_category": "أذكار الصباح",
+      "keywords_en": ["morning", "sunrise", "dawn", "wake up", "start day"],
+      "keywords_ar": ["صباح", "فجر", "شروق", "استيقاظ"]
+    },
+
+    "evening": {
+      "title_ar": "أذكار المساء",
+      "title_en": "Evening Remembrance",
+      "emoji": "🌙",
+      "husn_ids": [27],
+      "azkar_category": "أذكار المساء",
+      "keywords_en": ["evening", "night", "sunset", "dusk", "end day"],
+      "keywords_ar": ["مساء", "ليل", "غروب", "عشاء"]
+    },
+
+    "sleep": {
+      "title_ar": "أذكار النوم",
+      "title_en": "Sleep Supplications",
+      "emoji": "😴",
+      "husn_ids": [28, 29, 30, 31],
+      "azkar_category": "أذكار النوم",
+      "keywords_en": ["sleep", "bedtime", "rest", "night", "nap"],
+      "keywords_ar": ["نوم", "راحة", "ليل"]
+    },
+
+    "food": {
+      "title_ar": "أدعية الطعام والشراب",
+      "title_en": "Food & Drink Supplications",
+      "emoji": "🍽️",
+      "husn_ids": [69, 70, 71, 72, 73],
+      "azkar_category": null,
+      "keywords_en": ["lunch", "dinner", "breakfast", "meal", "restaurant", "eat", "food", "iftar", "suhoor", "banquet"],
+      "keywords_ar": ["غداء", "عشاء", "فطور", "وجبة", "مطعم", "طعام", "إفطار", "سحور"]
+    },
+
+    "fasting": {
+      "title_ar": "أدعية الصيام",
+      "title_en": "Fasting Supplications",
+      "emoji": "🌙",
+      "husn_ids": [68, 74, 75],
+      "azkar_category": null,
+      "keywords_en": ["fasting", "ramadan", "iftar", "suhoor", "fast"],
+      "keywords_ar": ["صيام", "رمضان", "إفطار", "سحور"]
+    },
+
+    "hajj_umrah": {
+      "title_ar": "أدعية الحج والعمرة",
+      "title_en": "Hajj & Umrah Supplications",
+      "emoji": "🕋",
+      "husn_ids": [115, 116, 117, 118, 119, 120, 121],
+      "azkar_category": null,
+      "keywords_en": ["hajj", "umrah", "makkah", "mecca", "madinah", "medina", "kaaba", "pilgrimage", "tawaf", "safa", "marwa", "arafat"],
+      "keywords_ar": ["حج", "عمرة", "مكة", "المدينة", "الكعبة", "طواف", "صفا", "مروة", "عرفة"]
+    },
+
+    "anger": {
+      "title_ar": "دعاء الغضب",
+      "title_en": "Anger Supplications",
+      "emoji": "😤",
+      "husn_ids": [82],
+      "azkar_category": null,
+      "keywords_en": ["angry", "anger", "frustration", "upset", "argument", "conflict"],
+      "keywords_ar": ["غضب", "إحباط", "خلاف", "شجار"]
+    },
+
+    "fear": {
+      "title_ar": "دعاء الخوف",
+      "title_en": "Fear Supplications",
+      "emoji": "😨",
+      "husn_ids": [39, 126],
+      "azkar_category": null,
+      "keywords_en": ["fear", "scared", "afraid", "frightened", "danger", "threat"],
+      "keywords_ar": ["خوف", "فزع", "خطر", "تهديد"]
+    },
+
+    "debt": {
+      "title_ar": "دعاء قضاء الدين",
+      "title_en": "Debt Settlement Supplications",
+      "emoji": "💰",
+      "husn_ids": [41],
+      "azkar_category": null,
+      "keywords_en": ["debt", "loan", "money", "financial", "payment", "bill", "mortgage"],
+      "keywords_ar": ["دين", "قرض", "مال", "مالي", "سداد", "فاتورة"]
+    },
+
+    "leaving_home": {
+      "title_ar": "دعاء الخروج من المنزل",
+      "title_en": "Leaving Home Supplications",
+      "emoji": "🚪",
+      "husn_ids": [10, 11],
+      "azkar_category": null,
+      "keywords_en": ["leaving home", "going out", "commute", "errand"],
+      "keywords_ar": ["خروج", "منزل", "بيت"]
+    },
+
+    "entering_home": {
+      "title_ar": "دعاء دخول المنزل",
+      "title_en": "Entering Home Supplications",
+      "emoji": "🏠",
+      "husn_ids": [12],
+      "azkar_category": null,
+      "keywords_en": ["arriving home", "entering home", "coming back"],
+      "keywords_ar": ["دخول", "منزل", "بيت", "عودة"]
+    },
+
+    "mosque": {
+      "title_ar": "أدعية المسجد",
+      "title_en": "Mosque Supplications",
+      "emoji": "🕌",
+      "husn_ids": [13, 14, 15],
+      "azkar_category": null,
+      "keywords_en": ["mosque", "masjid", "prayer", "salah", "jummah"],
+      "keywords_ar": ["مسجد", "صلاة", "جامع"]
+    },
+
+    "repentance": {
+      "title_ar": "أدعية التوبة والاستغفار",
+      "title_en": "Repentance Supplications",
+      "emoji": "🤲",
+      "husn_ids": [44, 129],
+      "azkar_category": null,
+      "keywords_en": ["repentance", "forgiveness", "sin", "mistake", "regret"],
+      "keywords_ar": ["توبة", "استغفار", "ذنب", "خطأ", "ندم"]
+    },
+
+    "death_funeral": {
+      "title_ar": "أدعية الميت والجنازة",
+      "title_en": "Death & Funeral Supplications",
+      "emoji": "🕊️",
+      "husn_ids": [53, 54, 55, 56, 57, 58, 59, 60],
+      "azkar_category": null,
+      "keywords_en": ["funeral", "death", "condolence", "burial", "grave", "memorial", "bereavement"],
+      "keywords_ar": ["جنازة", "وفاة", "تعزية", "دفن", "قبر", "ذكرى"]
+    },
+
+    "new_clothes": {
+      "title_ar": "دعاء لبس الثوب الجديد",
+      "title_en": "New Clothes Supplications",
+      "emoji": "👔",
+      "husn_ids": [2, 3, 4],
+      "azkar_category": null,
+      "keywords_en": ["shopping", "clothes", "new outfit", "fashion", "dress"],
+      "keywords_ar": ["تسوق", "ملابس", "ثوب جديد", "لبس"]
+    },
+
+    "general": {
+      "title_ar": "أذكار عامة",
+      "title_en": "General Remembrance",
+      "emoji": "📿",
+      "husn_ids": [130, 131],
+      "azkar_category": "تسابيح",
+      "keywords_en": [],
+      "keywords_ar": []
+    }
+  }
+}

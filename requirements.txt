@@ -1,0 +1,26 @@
+# ══════════════════════════════
+# أرحنا بها — الحزم المطلوبة
+# ══════════════════════════════
+
+# ── الإطار الأساسي ──
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+gunicorn==22.0.0
+
+# ── قاعدة البيانات ──
+sqlalchemy[asyncio]==2.0.36
+aiosqlite==0.20.0
+
+# ── المصادقة و Google APIs ──
+google-auth==2.37.0
+google-auth-oauthlib==1.2.1
+google-api-python-client==2.159.0
+
+# ── HTTP Client ──
+httpx==0.28.1
+
+# ── الإعدادات ──
+pydantic-settings==2.7.1
+
+# ── الجدولة ──
+apscheduler==3.10.4
