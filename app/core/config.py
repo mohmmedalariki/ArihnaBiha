@@ -6,12 +6,15 @@ import os
 from pydantic_settings import BaseSettings
 from typing import Optional
 
+_BASE_DIR = Path(__file__).resolve().parent.parent.parent
+_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+
 class Settings(BaseSettings):
     """إعدادات التطبيق المركزية"""
 
     # ── المسارات ──
-    BASE_DIR: Path = Path(__file__).parent.parent.parent
-    DATA_DIR: Path = Path(__file__).parent.parent / "data"
+    BASE_DIR: Path = _BASE_DIR
+    DATA_DIR: Path = _DATA_DIR
 
     # ── معلومات التطبيق ──
     APP_NAME: str = "أرحنا بها"
