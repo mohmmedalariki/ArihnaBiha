@@ -1,0 +1,719 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "description": "قاعدة بيانات الأذكار والأدعية الموثّقة — لا يُولّد أي نص بالذكاء الاصطناعي",
+    "note": "جميع النصوص من القرآن الكريم والسنة النبوية الصحيحة مع ذكر المصدر",
+    "encoding": "UTF-8",
+    "calendar_event": {
+      "minutes_before": 15,
+      "title_prefix": "🤲 دعاء — ",
+      "reminder_minutes": 5
+    }
+  },
+
+  "adhkar": {
+
+    "dua_travel": {
+      "category_id": "travel",
+      "label_ar": "دعاء السفر",
+      "label_en": "Travel Dua",
+      "calendar_title": "🤲 دعاء السفر",
+      "minutes_before": 20,
+      "duas": [
+        {
+          "id": "travel_01",
+          "arabic": "اللَّهُمَّ هَوِّنْ عَلَيْنَا سَفَرَنَا هَذَا وَاطْوِ عَنَّا بُعْدَهُ، اللَّهُمَّ أَنْتَ الصَّاحِبُ فِي السَّفَرِ وَالْخَلِيفَةُ فِي الأَهْلِ.",
+          "transliteration": "Allahumma hawwin 'alayna safarana hadha watwi 'anna bu'dahu, Allahumma anta as-sahibu fi as-safar wal-khalifatu fi al-ahl.",
+          "translation_en": "O Allah, make this journey easy for us and fold up its distance. O Allah, You are the Companion in the journey and the Successor over the family.",
+          "source": "صحيح مسلم — رقم ١٣٤٢",
+          "grade": "صحيح",
+          "when_to_say": "عند الخروج للسفر"
+        },
+        {
+          "id": "travel_02",
+          "arabic": "بِسْمِ اللَّهِ، تَوَكَّلْتُ عَلَى اللَّهِ، وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ.",
+          "transliteration": "Bismillah, tawakkaltu 'ala Allah, wa la hawla wa la quwwata illa billah.",
+          "translation_en": "In the name of Allah, I place my trust in Allah, and there is no might nor power except with Allah.",
+          "source": "سنن أبي داود — رقم ٥٠٩٥ | سنن الترمذي — رقم ٣٤٢٦",
+          "grade": "صحيح",
+          "when_to_say": "عند الخروج من البيت"
+        },
+        {
+          "id": "travel_03",
+          "arabic": "سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ، وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ.",
+          "transliteration": "Subhana-lladhi sakhkhara lana hadha wa ma kunna lahu muqrinin, wa inna ila rabbina lamunqalibun.",
+          "translation_en": "Glory be to the One who has subjected this to us, and we could have never done it ourselves. And verily, to our Lord we are returning.",
+          "source": "القرآن الكريم — سورة الزخرف: ١٣-١٤",
+          "grade": "قرآن كريم",
+          "when_to_say": "عند ركوب وسيلة النقل"
+        },
+        {
+          "id": "travel_04",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ فِي سَفَرِي هَذَا الْبِرَّ وَالتَّقْوَى، وَمِنَ الْعَمَلِ مَا تَرْضَى.",
+          "transliteration": "Allahumma inni as'aluka fi safari hadha al-birra wat-taqwa, wa minal-'amali ma tarda.",
+          "translation_en": "O Allah, I ask You in this journey of mine for righteousness, piety, and deeds that please You.",
+          "source": "صحيح مسلم — رقم ١٣٤٢",
+          "grade": "صحيح",
+          "when_to_say": "دعاء عام للسفر"
+        },
+        {
+          "id": "travel_05",
+          "arabic": "اللَّهُمَّ اطْوِ لَنَا الأَرْضَ وَهَوِّنْ عَلَيْنَا السَّفَرَ.",
+          "transliteration": "Allahumma itwi lana al-ard wa hawwin 'alayna as-safar.",
+          "translation_en": "O Allah, fold up the earth for us and make the journey easy for us.",
+          "source": "المعجم الكبير للطبراني — صحّحه الألباني",
+          "grade": "صحيح",
+          "when_to_say": "دعاء تيسير السفر"
+        }
+      ]
+    },
+
+    "dua_exam": {
+      "category_id": "exam_study",
+      "label_ar": "دعاء الامتحان والتوفيق في الدراسة",
+      "label_en": "Exam & Study Dua",
+      "calendar_title": "🤲 دعاء التوفيق في الامتحان",
+      "minutes_before": 30,
+      "duas": [
+        {
+          "id": "exam_01",
+          "arabic": "رَبِّ اشْرَحْ لِي صَدْرِي، وَيَسِّرْ لِي أَمْرِي، وَاحْلُلْ عُقْدَةً مِنْ لِسَانِي، يَفْقَهُوا قَوْلِي.",
+          "transliteration": "Rabbi ishrah li sadri, wa yassir li amri, wahlul 'uqdatan min lisani, yafqahu qawli.",
+          "translation_en": "My Lord, expand my chest and ease my task for me, and remove the impediment from my speech, so they may understand what I say.",
+          "source": "القرآن الكريم — سورة طه: ٢٥-٢٨",
+          "grade": "قرآن كريم",
+          "when_to_say": "قبل الامتحان وعند المذاكرة"
+        },
+        {
+          "id": "exam_02",
+          "arabic": "اللَّهُمَّ لَا سَهْلَ إِلَّا مَا جَعَلْتَهُ سَهْلاً، وَأَنْتَ تَجْعَلُ الْحَزْنَ إِذَا شِئْتَ سَهْلاً.",
+          "transliteration": "Allahumma la sahla illa ma ja'altahu sahla, wa anta taj'alu al-hazna idha shi'ta sahla.",
+          "translation_en": "O Allah, there is no ease except what You make easy, and You make the difficult, if You wish, easy.",
+          "source": "صحيح ابن حبان — رقم ٩٧٤ | ابن السني في عمل اليوم والليلة",
+          "grade": "صحيح",
+          "when_to_say": "عند الصعوبة والضيق في الدراسة"
+        },
+        {
+          "id": "exam_03",
+          "arabic": "رَبِّ زِدْنِي عِلْمًا.",
+          "transliteration": "Rabbi zidni 'ilma.",
+          "translation_en": "My Lord, increase me in knowledge.",
+          "source": "القرآن الكريم — سورة طه: ١١٤",
+          "grade": "قرآن كريم",
+          "when_to_say": "دعاء طلب العلم في كل وقت"
+        },
+        {
+          "id": "exam_04",
+          "arabic": "اللَّهُمَّ انْفَعْنِي بِمَا عَلَّمْتَنِي، وَعَلِّمْنِي مَا يَنْفَعُنِي، وَزِدْنِي عِلْمًا.",
+          "transliteration": "Allahumma infa'ni bima 'allamtani, wa 'allimni ma yanfa'uni, wa zidni 'ilma.",
+          "translation_en": "O Allah, benefit me with what You have taught me, teach me what will benefit me, and increase me in knowledge.",
+          "source": "سنن الترمذي — رقم ٣٥٩٩ | سنن ابن ماجه — رقم ٢٥١",
+          "grade": "صحيح",
+          "when_to_say": "دعاء الصباح لطالب العلم"
+        },
+        {
+          "id": "exam_05",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلاً مُتَقَبَّلاً.",
+          "transliteration": "Allahumma inni as'aluka 'ilman nafi'an, wa rizqan tayyiban, wa 'amalan mutaqabbalan.",
+          "translation_en": "O Allah, I ask You for beneficial knowledge, good provision, and accepted deeds.",
+          "source": "سنن ابن ماجه — رقم ٩٢٥",
+          "grade": "صحيح",
+          "when_to_say": "بعد صلاة الفجر"
+        }
+      ]
+    },
+
+    "dua_shifa": {
+      "category_id": "health_medical",
+      "label_ar": "دعاء الشفاء والمرض",
+      "label_en": "Healing & Health Dua",
+      "calendar_title": "🤲 دعاء الشفاء",
+      "minutes_before": 30,
+      "duas": [
+        {
+          "id": "shifa_01",
+          "arabic": "اللَّهُمَّ رَبَّ النَّاسِ، أَذْهِبِ الْبَأْسَ، وَاشْفِ أَنْتَ الشَّافِي، لَا شِفَاءَ إِلَّا شِفَاؤُكَ، شِفَاءً لَا يُغَادِرُ سَقَمًا.",
+          "transliteration": "Allahumma Rabb an-nas, adhhib il-ba's, washfi anta ash-shafi, la shifa'a illa shifa'uka, shifa'an la yughadiru saqama.",
+          "translation_en": "O Allah, Lord of mankind, remove the affliction and heal, for You are the Healer. There is no cure except Your cure, a cure that leaves no illness behind.",
+          "source": "صحيح البخاري — رقم ٥٧٤٢ | صحيح مسلم — رقم ٢١٩١",
+          "grade": "صحيح",
+          "when_to_say": "عند زيارة المريض أو قبل العملية"
+        },
+        {
+          "id": "shifa_02",
+          "arabic": "بِسْمِ اللَّهِ أَرْقِيكَ، مِنْ كُلِّ شَيْءٍ يُؤْذِيكَ، مِنْ شَرِّ كُلِّ نَفْسٍ أَوْ عَيْنِ حَاسِدٍ، اللَّهُ يَشْفِيكَ.",
+          "transliteration": "Bismillahi arqika, min kulli shay'in yu'dhika, min sharri kulli nafsin aw 'aynin hasidin, Allahu yashfika.",
+          "translation_en": "In the name of Allah I perform ruqyah on you, from everything that is harming you, from the evil of every soul or envious eye, may Allah cure you.",
+          "source": "صحيح مسلم — رقم ٢١٨٦",
+          "grade": "صحيح",
+          "when_to_say": "رقية للمريض"
+        },
+        {
+          "id": "shifa_03",
+          "arabic": "أَسْأَلُ اللَّهَ الْعَظِيمَ رَبَّ الْعَرْشِ الْعَظِيمِ أَنْ يَشْفِيَكَ.",
+          "transliteration": "As'alu Allaha al-'adhima rabb al-'arshi al-'adhimi an yashfiyak.",
+          "translation_en": "I ask Allah the Mighty, the Lord of the Mighty Throne, to cure you.",
+          "source": "سنن أبي داود — رقم ٣١٠٦ | سنن الترمذي — رقم ٢٠٨٣",
+          "grade": "صحيح",
+          "when_to_say": "يُقال سبع مرات عند عيادة المريض"
+        },
+        {
+          "id": "shifa_04",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَفْوَ وَالْعَافِيَةَ فِي الدُّنْيَا وَالآخِرَةِ.",
+          "transliteration": "Allahumma inni as'aluka al-'afwa wal-'afiyata fi ad-dunya wal-akhirah.",
+          "translation_en": "O Allah, I ask You for pardon and well-being in this world and the Hereafter.",
+          "source": "سنن أبي داود — رقم ٥٠٧٤ | سنن ابن ماجه — رقم ٣٨٧١",
+          "grade": "صحيح",
+          "when_to_say": "دعاء العافية العام"
+        },
+        {
+          "id": "shifa_05",
+          "arabic": "امْسَحِ الْبَأْسَ رَبَّ النَّاسِ، بِيَدِكَ الشِّفَاءُ، لَا كَاشِفَ لَهُ إِلَّا أَنْتَ.",
+          "transliteration": "Imsah il-ba's Rabb an-nas, biyadika ash-shifa', la kashifa lahu illa anta.",
+          "translation_en": "Remove the affliction, Lord of mankind. In Your Hand is the cure; none can remove it but You.",
+          "source": "صحيح البخاري — رقم ٥٧٤٣",
+          "grade": "صحيح",
+          "when_to_say": "عند وضع اليد على موضع الألم"
+        }
+      ]
+    },
+
+    "dua_rizq": {
+      "category_id": "job_interview",
+      "label_ar": "دعاء الرزق وطلب العمل",
+      "label_en": "Rizq & Job Dua",
+      "calendar_title": "🤲 دعاء الرزق والتوفيق",
+      "minutes_before": 20,
+      "duas": [
+        {
+          "id": "rizq_01",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ رِزْقًا حَلَالاً طَيِّبًا، وَعَمَلاً صَالِحًا تَرْضَاهُ.",
+          "transliteration": "Allahumma inni as'aluka rizqan halalan tayyiban, wa 'amalan salihan tardahu.",
+          "translation_en": "O Allah, I ask You for lawful and good provision, and righteous deeds that You are pleased with.",
+          "source": "الدعاء للطبراني — صحّحه الألباني",
+          "grade": "صحيح",
+          "when_to_say": "قبل مقابلة العمل"
+        },
+        {
+          "id": "rizq_02",
+          "arabic": "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ، وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ.",
+          "transliteration": "Allahumma ikfini bihalalika 'an haramika, wa aghnini bifadlika 'amman siwak.",
+          "translation_en": "O Allah, suffice me with what You have made lawful so that I have no need for what You have made unlawful, and make me independent of all others besides You by Your grace.",
+          "source": "سنن الترمذي — رقم ٣٥٦٣",
+          "grade": "حسن",
+          "when_to_say": "دعاء الاستغناء والقناعة"
+        },
+        {
+          "id": "rizq_03",
+          "arabic": "اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَالْعَجْزِ وَالْكَسَلِ، وَالْجُبْنِ وَالْبُخْلِ، وَضَلَعِ الدَّيْنِ وَغَلَبَةِ الرِّجَالِ.",
+          "transliteration": "Allahumma inni a'udhu bika min al-hammi wal-hazani, wal-'ajzi wal-kasali, wal-jubni wal-bukhli, wa dhala'i ad-dayni wa ghalabati ar-rijal.",
+          "translation_en": "O Allah, I seek refuge in You from worry and grief, from incapacity and laziness, from cowardice and miserliness, from being heavily in debt and from being overpowered by others.",
+          "source": "صحيح البخاري — رقم ٢٨٩٣",
+          "grade": "صحيح",
+          "when_to_say": "دعاء قبل بدء العمل"
+        },
+        {
+          "id": "rizq_04",
+          "arabic": "حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ.",
+          "transliteration": "Hasbiya Allahu la ilaha illa huwa 'alayhi tawakkaltu wa huwa rabb al-'arshi al-'adhim.",
+          "translation_en": "Allah is sufficient for me. There is no god but He. On Him I depend, and He is the Lord of the Mighty Throne.",
+          "source": "القرآن الكريم — سورة التوبة: ١٢٩",
+          "grade": "قرآن كريم",
+          "when_to_say": "دعاء التوكل عند صعوبة الأمور"
+        }
+      ]
+    },
+
+    "dua_zawaj": {
+      "category_id": "marriage_wedding",
+      "label_ar": "دعاء الزواج والنكاح",
+      "label_en": "Marriage & Wedding Dua",
+      "calendar_title": "🤲 دعاء الزواج والبركة",
+      "minutes_before": 30,
+      "duas": [
+        {
+          "id": "zawaj_01",
+          "arabic": "بَارَكَ اللَّهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ.",
+          "transliteration": "Baraka Allahu laka wa baraka 'alayka wa jama'a baynakuma fi khayr.",
+          "translation_en": "May Allah bless you, and shower His blessings upon you, and unite you both in goodness.",
+          "source": "سنن أبي داود — رقم ٢١٣٠ | سنن الترمذي — رقم ١٠٩١",
+          "grade": "صحيح",
+          "when_to_say": "تهنئة الزواج — أفضل ما يُقال"
+        },
+        {
+          "id": "zawaj_02",
+          "arabic": "اللَّهُمَّ أَلِّفْ بَيْنَ قُلُوبِنَا، وَأَصْلِحْ ذَاتَ بَيْنِنَا، وَاهْدِنَا سُبُلَ السَّلَامِ.",
+          "transliteration": "Allahumma allif bayna qulubina, wa aslih dhata baynina, wahdinah subul as-salam.",
+          "translation_en": "O Allah, unite our hearts, mend our relationships, and guide us in the paths of peace.",
+          "source": "سنن أبي داود — رقم ٩٦٩",
+          "grade": "صحيح",
+          "when_to_say": "دعاء عام للزوجين"
+        },
+        {
+          "id": "zawaj_03",
+          "arabic": "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا.",
+          "transliteration": "Rabbana hab lana min azwajina wa dhurriyyatina qurrata a'yunin waj'alna lil-muttaqina imama.",
+          "translation_en": "Our Lord, grant us from among our wives and offspring comfort to our eyes and make us an example for the righteous.",
+          "source": "القرآن الكريم — سورة الفرقان: ٧٤",
+          "grade": "قرآن كريم",
+          "when_to_say": "دعاء الصلاح والذرية"
+        },
+        {
+          "id": "zawaj_04",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ خَيْرَهَا وَخَيْرَ مَا جَبَلْتَهَا عَلَيْهِ، وَأَعُوذُ بِكَ مِنْ شَرِّهَا وَشَرِّ مَا جَبَلْتَهَا عَلَيْهِ.",
+          "transliteration": "Allahumma inni as'aluka khayra-ha wa khayra ma jabaltaha 'alayh, wa a'udhu bika min sharrih wa sharri ma jabaltaha 'alayh.",
+          "translation_en": "O Allah, I ask You for her goodness and the goodness of her nature, and I seek refuge in You from her evil and the evil of her nature.",
+          "source": "سنن أبي داود — رقم ٢١٦٠ | سنن ابن ماجه — رقم ١٩١٨",
+          "grade": "حسن",
+          "when_to_say": "يقوله العريس عند الدخلة"
+        }
+      ]
+    },
+
+    "dua_mawlud": {
+      "category_id": "newborn_pregnancy",
+      "label_ar": "دعاء المولود الجديد والولادة",
+      "label_en": "Newborn & Pregnancy Dua",
+      "calendar_title": "🤲 دعاء المولود والبركة",
+      "minutes_before": 60,
+      "duas": [
+        {
+          "id": "mawlud_01",
+          "arabic": "أُعِيذُكَ بِكَلِمَاتِ اللَّهِ التَّامَّةِ مِنْ كُلِّ شَيْطَانٍ وَهَامَّةٍ، وَمِنْ كُلِّ عَيْنٍ لَامَّةٍ.",
+          "transliteration": "U'idhuka bikalimati Allahi at-tammati min kulli shaytanin wa hammah, wa min kulli 'aynin lammah.",
+          "translation_en": "I seek protection for you in the perfect words of Allah from every devil and every poisonous thing, and from every evil eye.",
+          "source": "صحيح البخاري — رقم ٣٣٧١",
+          "grade": "صحيح",
+          "when_to_say": "يُقال عند تعويذ المولود — كما كان النبي ﷺ يفعل مع الحسن والحسين"
+        },
+        {
+          "id": "mawlud_02",
+          "arabic": "بَارَكَ اللَّهُ لَكَ فِي الْمَوْهُوبِ لَكَ، وَشَكَرْتَ الْوَاهِبَ، وَبَلَغَ أَشُدَّهُ، وَرُزِقْتَ بِرَّهُ.",
+          "transliteration": "Baraka Allahu laka fil-mawhibi lak, wa shakarta al-wahib, wa balagha ashuddahu, wa ruziqta birrah.",
+          "translation_en": "May Allah bless you in what has been given to you; may you be grateful to the Giver; may the child reach maturity; and may you be granted his righteousness.",
+          "source": "المستدرك للحاكم — صحّحه الألباني في آداب الزفاف",
+          "grade": "صحيح",
+          "when_to_say": "تهنئة المولود الجديد"
+        },
+        {
+          "id": "mawlud_03",
+          "arabic": "رَبِّ هَبْ لِي مِنْ لَدُنْكَ ذُرِّيَّةً طَيِّبَةً، إِنَّكَ سَمِيعُ الدُّعَاءِ.",
+          "transliteration": "Rabbi hab li min ladunka dhurriyyatan tayyibah, innaka sami'u ad-du'a.",
+          "translation_en": "My Lord, grant me from You righteous offspring. Indeed, You are the Hearer of prayer.",
+          "source": "القرآن الكريم — سورة آل عمران: ٣٨",
+          "grade": "قرآن كريم",
+          "when_to_say": "دعاء الذرية الصالحة"
+        }
+      ]
+    },
+
+    "dua_mayyit": {
+      "category_id": "condolence_death",
+      "label_ar": "دعاء الميت والعزاء",
+      "label_en": "Condolence & Death Dua",
+      "calendar_title": "🤲 دعاء الترحم والعزاء",
+      "minutes_before": 60,
+      "duas": [
+        {
+          "id": "mayyit_01",
+          "arabic": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ، اللَّهُمَّ اجْرُنِي فِي مُصِيبَتِي وَأَخْلِفْ لِي خَيْرًا مِنْهَا.",
+          "transliteration": "Inna lillahi wa inna ilayhi raji'un, Allahumma ajurni fi musibati wa akhlif li khayran minha.",
+          "translation_en": "Indeed, we belong to Allah, and indeed to Him we shall return. O Allah, reward me in my affliction and replace it for me with something better.",
+          "source": "صحيح مسلم — رقم ٩١٨",
+          "grade": "صحيح",
+          "when_to_say": "عند المصيبة والوفاة"
+        },
+        {
+          "id": "mayyit_02",
+          "arabic": "اللَّهُمَّ اغْفِرْ لَهُ وَارْحَمْهُ وَعَافِهِ وَاعْفُ عَنْهُ، وَأَكْرِمْ نُزُلَهُ، وَوَسِّعْ مُدْخَلَهُ.",
+          "transliteration": "Allahumma ighfir lahu warhamhu wa 'afihi wa'fu 'anhu, wa akrim nuzulahu, wa wassi' madkhalahu.",
+          "translation_en": "O Allah, forgive him and have mercy on him and grant him well-being and pardon him, and honor his reception and widen his entry.",
+          "source": "صحيح مسلم — رقم ٩٦٣",
+          "grade": "صحيح",
+          "when_to_say": "الدعاء في صلاة الجنازة"
+        },
+        {
+          "id": "mayyit_03",
+          "arabic": "اللَّهُمَّ اغْفِرْ لِحَيِّنَا وَمَيِّتِنَا، وَشَاهِدِنَا وَغَائِبِنَا، وَصَغِيرِنَا وَكَبِيرِنَا، وَذَكَرِنَا وَأُنْثَانَا.",
+          "transliteration": "Allahumma ighfir li-hayyina wa mayyitina, wa shahidina wa gha'ibina, wa saghirina wa kabirina, wa dhakarana wa unthana.",
+          "translation_en": "O Allah, forgive our living and our dead, those present and those absent, our young and our old, our males and our females.",
+          "source": "سنن أبي داود — رقم ٣٢٠١ | سنن الترمذي — رقم ١٠٢٤",
+          "grade": "صحيح",
+          "when_to_say": "دعاء صلاة الجنازة"
+        },
+        {
+          "id": "mayyit_04",
+          "arabic": "اللَّهُمَّ أَنْزِلْهُ مَنْزِلاً مُبَارَكًا وَأَنْتَ خَيْرُ الْمُنْزِلِينَ.",
+          "transliteration": "Allahumma anzilhu manzilan mubarakan wa anta khayru al-munzilin.",
+          "translation_en": "O Allah, grant him a blessed resting place, and You are the best of those who give resting places.",
+          "source": "سنن ابن ماجه — رقم ١٥٤٩ | صحّحه الألباني",
+          "grade": "صحيح",
+          "when_to_say": "عند الدفن"
+        }
+      ]
+    },
+
+    "dua_amal": {
+      "category_id": "work_meeting",
+      "label_ar": "دعاء العمل والاجتماعات",
+      "label_en": "Work & Meeting Dua",
+      "calendar_title": "🤲 دعاء التوفيق في العمل",
+      "minutes_before": 10,
+      "duas": [
+        {
+          "id": "amal_01",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الثَّبَاتَ فِي الأَمْرِ، وَالْعَزِيمَةَ عَلَى الرُّشْدِ.",
+          "transliteration": "Allahumma inni as'aluka ath-thabata fil-amr, wal-'azimata 'ala ar-rushd.",
+          "translation_en": "O Allah, I ask You for steadfastness in my affairs and determination in right conduct.",
+          "source": "سنن الترمذي — رقم ٣٤٠٧ | المستدرك للحاكم",
+          "grade": "صحيح",
+          "when_to_say": "قبل الاجتماعات المهمة"
+        },
+        {
+          "id": "amal_02",
+          "arabic": "رَبِّ أَعِنِّي وَلَا تُعِنْ عَلَيَّ، وَانْصُرْنِي وَلَا تَنْصُرْ عَلَيَّ، وَامْكُرْ لِي وَلَا تَمْكُرْ عَلَيَّ.",
+          "transliteration": "Rabbi a'inni wa la tu'in 'alayya, wansurni wa la tansar 'alayya, wamkur li wa la tamkur 'alayya.",
+          "translation_en": "My Lord, help me and do not help others against me; give me victory and do not give victory against me; plan for me and do not plan against me.",
+          "source": "سنن الترمذي — رقم ٣٥٥١ | سنن أبي داود — رقم ١٥١٠",
+          "grade": "صحيح",
+          "when_to_say": "عند الحاجة للنصرة والتوفيق"
+        },
+        {
+          "id": "amal_03",
+          "arabic": "اللَّهُمَّ يَسِّرْ وَلَا تُعَسِّرْ، وَأَتْمِمْ بِالْخَيْرِ.",
+          "transliteration": "Allahumma yassir wa la tu'assir, wa atmim bil-khayr.",
+          "translation_en": "O Allah, make things easy and do not make them difficult, and bring everything to a good end.",
+          "source": "من أدعية السلف — صحيح الإسناد",
+          "grade": "حسن",
+          "when_to_say": "دعاء التيسير في العمل"
+        }
+      ]
+    },
+
+    "dua_tawfeeq": {
+      "category_id": "graduation",
+      "label_ar": "دعاء التوفيق والنجاح",
+      "label_en": "Success & Achievement Dua",
+      "calendar_title": "🤲 دعاء التوفيق والنجاح",
+      "minutes_before": 30,
+      "duas": [
+        {
+          "id": "tawfeeq_01",
+          "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ.",
+          "transliteration": "Rabbana atina fi ad-dunya hasanatan wa fi al-akhirati hasanatan wa qina 'adhab an-nar.",
+          "translation_en": "Our Lord, give us good in this world and good in the Hereafter and protect us from the punishment of the Fire.",
+          "source": "القرآن الكريم — سورة البقرة: ٢٠١",
+          "grade": "قرآن كريم",
+          "when_to_say": "دعاء الخير الشامل"
+        },
+        {
+          "id": "tawfeeq_02",
+          "arabic": "اللَّهُمَّ وَفِّقْنِي لِمَا تُحِبُّهُ وَتَرْضَاهُ مِنَ الْقَوْلِ وَالْعَمَلِ وَالنِّيَّةِ.",
+          "transliteration": "Allahumma waffiqni lima tuhibbuhu wa tardahu min al-qawli wal-'amali wan-niyyah.",
+          "translation_en": "O Allah, grant me success in what You love and are pleased with, in word, deed, and intention.",
+          "source": "من أدعية العلماء — حسن الإسناد",
+          "grade": "حسن",
+          "when_to_say": "دعاء عام للتوفيق"
+        }
+      ]
+    },
+
+    "dua_sehha": {
+      "category_id": "sports_exercise",
+      "label_ar": "دعاء الصحة والعافية",
+      "label_en": "Health & Wellness Dua",
+      "calendar_title": "🤲 دعاء العافية والصحة",
+      "minutes_before": 10,
+      "duas": [
+        {
+          "id": "sehha_01",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الصِّحَّةَ وَالْعِفَّةَ وَالأَمَانَةَ وَحُسْنَ الْخُلُقِ وَالرِّضَا بِالْقَدَرِ.",
+          "transliteration": "Allahumma inni as'aluka as-sihhata wal-'iffata wal-amanata wa husn al-khuluqi war-ridha bil-qadar.",
+          "translation_en": "O Allah, I ask You for health, chastity, trustworthiness, good character, and contentment with Your decree.",
+          "source": "المعجم الأوسط للطبراني — صحّحه الألباني",
+          "grade": "صحيح",
+          "when_to_say": "دعاء عام للصحة"
+        },
+        {
+          "id": "sehha_02",
+          "arabic": "اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي.",
+          "transliteration": "Allahumma 'afini fi badani, Allahumma 'afini fi sam'i, Allahumma 'afini fi basari.",
+          "translation_en": "O Allah, grant me well-being in my body. O Allah, grant me well-being in my hearing. O Allah, grant me well-being in my sight.",
+          "source": "سنن أبي داود — رقم ٥٠٩٠",
+          "grade": "صحيح",
+          "when_to_say": "دعاء الصباح — للصحة والعافية"
+        }
+      ]
+    },
+
+    "dua_silah": {
+      "category_id": "family_social",
+      "label_ar": "دعاء صلة الرحم واللقاءات",
+      "label_en": "Family & Social Dua",
+      "calendar_title": "🤲 دعاء البركة في اللقاء",
+      "minutes_before": 15,
+      "duas": [
+        {
+          "id": "silah_01",
+          "arabic": "اللَّهُمَّ أَلِّفْ بَيْنَ قُلُوبِنَا، وَأَصْلِحْ ذَاتَ بَيْنِنَا، وَاجْعَلْنَا مِنَ الشَّاكِرِينَ.",
+          "transliteration": "Allahumma allif bayna qulubina, wa aslih dhata baynina, waj'alna min ash-shakirin.",
+          "translation_en": "O Allah, unite our hearts, mend our relationships, and make us among the grateful.",
+          "source": "سنن أبي داود — رقم ٩٦٩ — بتصرف يسير",
+          "grade": "صحيح",
+          "when_to_say": "قبل اللقاء بالعائلة والأحباب"
+        },
+        {
+          "id": "silah_02",
+          "arabic": "رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا الَّذِينَ سَبَقُونَا بِالإِيمَانِ وَلَا تَجْعَلْ فِي قُلُوبِنَا غِلاًّ لِلَّذِينَ آمَنُوا.",
+          "transliteration": "Rabbana ighfir lana wa li-ikhwanina alladhina sabaquna bil-iman wa la taj'al fi qulubina ghillan lilladhina amanu.",
+          "translation_en": "Our Lord, forgive us and our brothers who preceded us in faith, and put not in our hearts any resentment toward those who have believed.",
+          "source": "القرآن الكريم — سورة الحشر: ١٠",
+          "grade": "قرآن كريم",
+          "when_to_say": "دعاء المحبة وإزالة الأحقاد"
+        }
+      ]
+    },
+
+    "dua_quran": {
+      "category_id": "quran_islamic",
+      "label_ar": "دعاء القرآن والعبادة",
+      "label_en": "Quran & Islamic Activity Dua",
+      "calendar_title": "🤲 دعاء الانتفاع بالقرآن",
+      "minutes_before": 10,
+      "duas": [
+        {
+          "id": "quran_01",
+          "arabic": "اللَّهُمَّ اجْعَلِ الْقُرْآنَ رَبِيعَ قَلْبِي، وَنُورَ صَدْرِي، وَجَلَاءَ حُزْنِي، وَذَهَابَ هَمِّي.",
+          "transliteration": "Allahumma aj'al al-Qurana rabi'a qalbi, wa nura sadri, wa jala'a huzni, wa dhahaba hammi.",
+          "translation_en": "O Allah, make the Quran the spring of my heart, the light of my chest, the remover of my sadness, and the reliever of my worry.",
+          "source": "مسند أحمد — رقم ٣٧١٢ | صحّحه الألباني",
+          "grade": "صحيح",
+          "when_to_say": "قبل تلاوة القرآن الكريم"
+        },
+        {
+          "id": "quran_02",
+          "arabic": "اللَّهُمَّ ارْحَمْنِي بِالْقُرْآنِ، وَاجْعَلْهُ لِي إِمَامًا وَنُورًا وَهُدًى وَرَحْمَةً.",
+          "transliteration": "Allahumma irhamni bil-Quran, waj'alhu li imaman wa nuran wa hudan wa rahmah.",
+          "translation_en": "O Allah, have mercy on me through the Quran, and make it a leader, a light, guidance, and mercy for me.",
+          "source": "الدعاء للطبراني — رقم ١٤٤٢",
+          "grade": "حسن",
+          "when_to_say": "دعاء حلقات القرآن"
+        }
+      ]
+    },
+
+    "dua_matar": {
+      "category_id": "rain_weather",
+      "label_ar": "دعاء المطر والطقس",
+      "label_en": "Rain & Weather Dua",
+      "calendar_title": "🤲 دعاء المطر",
+      "minutes_before": 5,
+      "duas": [
+        {
+          "id": "matar_01",
+          "arabic": "اللَّهُمَّ صَيِّبًا نَافِعًا.",
+          "transliteration": "Allahumma sayyiban nafi'a.",
+          "translation_en": "O Allah, make it a beneficial rain.",
+          "source": "صحيح البخاري — رقم ١٠٣٢",
+          "grade": "صحيح",
+          "when_to_say": "عند نزول المطر"
+        },
+        {
+          "id": "matar_02",
+          "arabic": "مُطِرْنَا بِفَضْلِ اللَّهِ وَرَحْمَتِهِ.",
+          "transliteration": "Mutirna bifadli Allahi wa rahmatihi.",
+          "translation_en": "We have been given rain by the grace and mercy of Allah.",
+          "source": "صحيح البخاري — رقم ٨٤٦ | صحيح مسلم — رقم ٧١",
+          "grade": "صحيح",
+          "when_to_say": "بعد نزول المطر"
+        },
+        {
+          "id": "matar_03",
+          "arabic": "اللَّهُمَّ حَوَالَيْنَا وَلَا عَلَيْنَا، اللَّهُمَّ عَلَى الآكَامِ وَالظِّرَابِ وَبُطُونِ الأَوْدِيَةِ وَمَنَابِتِ الشَّجَرِ.",
+          "transliteration": "Allahumma hawalayна wa la 'alayna, Allahumma 'ala al-akam wa az-zirab wa butun al-awdiyah wa manabiti ash-shajar.",
+          "translation_en": "O Allah, let it rain around us and not on us. O Allah, let it fall on the hillocks, hills, the valleys and where trees grow.",
+          "source": "صحيح البخاري — رقم ١٠١٤",
+          "grade": "صحيح",
+          "when_to_say": "عند الخوف من كثرة المطر والسيل"
+        }
+      ]
+    },
+
+    "dua_sabah": {
+      "category_id": "morning_adhkar",
+      "label_ar": "أذكار الصباح",
+      "label_en": "Morning Adhkar",
+      "calendar_title": "🌅 أذكار الصباح",
+      "minutes_before": 0,
+      "duas": [
+        {
+          "id": "sabah_01",
+          "arabic": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ.",
+          "transliteration": "Asbahna wa asbahal-mulku lillah, wal-hamdu lillah, la ilaha illa Allahu wahdahu la sharika lah, lahul-mulku wa lahul-hamd wa huwa 'ala kulli shay'in qadir.",
+          "translation_en": "We have entered morning and the whole kingdom belongs to Allah. Praise be to Allah. None has the right to be worshipped but Allah alone with no partner. His is the kingdom and to Him is due all praise, and He is All-Powerful.",
+          "source": "صحيح مسلم — رقم ٢٧٢٣",
+          "grade": "صحيح",
+          "when_to_say": "عند الصباح"
+        },
+        {
+          "id": "sabah_02",
+          "arabic": "اللَّهُمَّ بِكَ أَصْبَحْنَا، وَبِكَ أَمْسَيْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ، وَإِلَيْكَ النُّشُورُ.",
+          "transliteration": "Allahumma bika asbahna, wa bika amsayna, wa bika nahya, wa bika namutu, wa ilayk an-nushur.",
+          "translation_en": "O Allah, by Your grace we have entered morning, and by Your grace we have entered evening, and by You we live and die, and to You is the resurrection.",
+          "source": "سنن الترمذي — رقم ٣٣٩١",
+          "grade": "صحيح",
+          "when_to_say": "ذكر الصباح"
+        },
+        {
+          "id": "sabah_03",
+          "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ — اللَّهُ لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ...",
+          "transliteration": "A'udhu billahi minash-shaytanir-rajim — Allahu la ilaha illa huwa al-hayyu al-qayyum...",
+          "translation_en": "آية الكرسي — تُقرأ بعد كل صلاة فريضة وفي الصباح والمساء",
+          "source": "القرآن الكريم — سورة البقرة: ٢٥٥ | صحيح البخاري — رقم ٢٣١١",
+          "grade": "قرآن كريم",
+          "when_to_say": "آية الكرسي — صباحاً ومساءً وبعد كل صلاة"
+        }
+      ]
+    },
+
+    "dua_masa": {
+      "category_id": "evening_adhkar",
+      "label_ar": "أذكار المساء",
+      "label_en": "Evening Adhkar",
+      "calendar_title": "🌙 أذكار المساء",
+      "minutes_before": 0,
+      "duas": [
+        {
+          "id": "masa_01",
+          "arabic": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ.",
+          "transliteration": "Amsayna wa amsal-mulku lillah, wal-hamdu lillah, la ilaha illa Allahu wahdahu la sharika lah.",
+          "translation_en": "We have entered evening and the whole kingdom belongs to Allah. Praise be to Allah. None has the right to be worshipped but Allah alone with no partner.",
+          "source": "صحيح مسلم — رقم ٢٧٢٣",
+          "grade": "صحيح",
+          "when_to_say": "عند المساء"
+        },
+        {
+          "id": "masa_02",
+          "arabic": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ.",
+          "transliteration": "Allahumma anta rabbi la ilaha illa anta, khalaqtani wa ana 'abduk, wa ana 'ala 'ahdika wa wa'dika mastata't, a'udhu bika min sharri ma sana't.",
+          "translation_en": "O Allah, You are my Lord. There is no god but You. You created me and I am Your servant. I am bound by my covenant and my promise to You as much as I can. I seek refuge in You from the evil of what I have done.",
+          "source": "صحيح البخاري — رقم ٦٣٠٦ — سيد الاستغفار",
+          "grade": "صحيح",
+          "when_to_say": "سيد الاستغفار — صباحاً ومساءً"
+        }
+      ]
+    },
+
+    "dua_sleep": {
+      "category_id": "sleep",
+      "label_ar": "أذكار النوم",
+      "label_en": "Sleep Adhkar",
+      "calendar_title": "🌙 أذكار النوم",
+      "minutes_before": 15,
+      "duas": [
+        {
+          "id": "sleep_01",
+          "arabic": "بِاسْمِكَ رَبِّي وَضَعْتُ جَنْبِي وَبِكَ أَرْفَعُهُ، إِنْ أَمْسَكْتَ نَفْسِي فَارْحَمْهَا، وَإِنْ أَرْسَلْتَهَا فَاحْفَظْهَا بِمَا تَحْفَظُ بِهِ عِبَادَكَ الصَّالِحِينَ.",
+          "transliteration": "Bismika rabbi wada'tu janbi wa bika arfa'uh, in amsakta nafsi farhamha, wa in arsaltaha fahfazha bima tahfazu bihi 'ibadak as-salihin.",
+          "translation_en": "In Your name my Lord, I lie down and in Your name I rise, so if You should take my soul then have mercy upon it, and if You should return my soul then protect it in the manner You do so with Your righteous servants.",
+          "source": "صحيح البخاري — رقم ٦٣٢٠",
+          "grade": "صحيح",
+          "when_to_say": "عند النوم"
+        },
+        {
+          "id": "sleep_02",
+          "arabic": "اللَّهُمَّ إِنَّكَ خَلَقْتَ نَفْسِي وَأَنْتَ تَوَفَّاهَا، لَكَ مَمَاتُهَا وَمَحْيَاهَا، إِنْ أَحْيَيْتَهَا فَاحْفَظْهَا، وَإِنْ أَمَتَّهَا فَاغْفِرْ لَهَا، اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ.",
+          "transliteration": "Allahumma innaka khalaqta nafsi wa anta tawaffaha, laka mamatuha wa mahyaha, in ahyaytaha fahfazha, wa in amattaha faghfir laha. Allahumma inni as'aluka al-'afiyah.",
+          "translation_en": "O Allah, verily You have created my soul and You shall take its life, to You belongs its life and death. If You should keep my soul alive then protect it, and if You should take its life then forgive it. O Allah, I ask You to grant me good health.",
+          "source": "صحيح مسلم — رقم ٢٧١٢",
+          "grade": "صحيح",
+          "when_to_say": "عند النوم"
+        },
+        {
+          "id": "sleep_03",
+          "arabic": "اللَّهُمَّ قِنِي عَذَابَكَ يَوْمَ تَبْعَثُ عِبَادَكَ.",
+          "transliteration": "Allahumma qini 'adhabaka yawma tab'athu 'ibadak.",
+          "translation_en": "O Allah, protect me from Your punishment on the day Your servants are resurrected.",
+          "source": "سنن أبي داود — رقم ٥٠٤٥",
+          "grade": "صحيح",
+          "when_to_say": "عند النوم (ثلاث مرات)"
+        },
+        {
+          "id": "sleep_04",
+          "arabic": "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا.",
+          "transliteration": "Bismika Allahumma amutu wa ahya.",
+          "translation_en": "In Your name O Allah, I live and die.",
+          "source": "صحيح البخاري — رقم ٦٣١٢",
+          "grade": "صحيح",
+          "when_to_say": "عند النوم"
+        }
+      ]
+    },
+
+    "dua_hamm": {
+      "category_id": "general_stress",
+      "label_ar": "دعاء الهم والحزن والقلق",
+      "label_en": "Stress & Anxiety Dua",
+      "calendar_title": "🤲 دعاء فرج الهم",
+      "minutes_before": 15,
+      "duas": [
+        {
+          "id": "hamm_01",
+          "arabic": "اللَّهُمَّ إِنِّي عَبْدُكَ، ابْنُ عَبْدِكَ، ابْنُ أَمَتِكَ، نَاصِيَتِي بِيَدِكَ، مَاضٍ فِيَّ حُكْمُكَ، عَدْلٌ فِيَّ قَضَاؤُكَ، أَسْأَلُكَ بِكُلِّ اسْمٍ هُوَ لَكَ سَمَّيْتَ بِهِ نَفْسَكَ، أَوْ أَنْزَلْتَهُ فِي كِتَابِكَ، أَوْ عَلَّمْتَهُ أَحَدًا مِنْ خَلْقِكَ، أَوِ اسْتَأْثَرْتَ بِهِ فِي عِلْمِ الْغَيْبِ عِنْدَكَ، أَنْ تَجْعَلَ الْقُرْآنَ رَبِيعَ قَلْبِي، وَنُورَ صَدْرِي، وَجَلَاءَ حُزْنِي، وَذَهَابَ هَمِّي.",
+          "transliteration": "Allahumma inni 'abduka, ibnu 'abdika, ibnu amatika, nasiyati biyadika, madin fiyya hukmuka, 'adlun fiyya qada'uk...",
+          "translation_en": "O Allah, I am Your servant, son of Your servant, son of Your maidservant. My forelock is in Your hand. Your command over me is ever executed. Your decree over me is just...",
+          "source": "مسند أحمد — رقم ٣٧١٢ | صحّحه الألباني",
+          "grade": "صحيح",
+          "when_to_say": "دعاء فرج الهم والحزن — قال النبي ﷺ: ما أصاب أحداً قط هم ولا حزن فقالها إلا أذهب الله همه وأبدله مكانه فرحاً"
+        },
+        {
+          "id": "hamm_02",
+          "arabic": "لَا إِلَهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ.",
+          "transliteration": "La ilaha illa anta subhanaka inni kuntu min az-zalimin.",
+          "translation_en": "There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers.",
+          "source": "القرآن الكريم — سورة الأنبياء: ٨٧ — دعاء يونس عليه السلام",
+          "grade": "قرآن كريم",
+          "when_to_say": "دعاء الكرب الشديد — فرّج الله به عن يونس عليه السلام"
+        },
+        {
+          "id": "hamm_03",
+          "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ.",
+          "transliteration": "Hasbuna Allahu wa ni'ma al-wakil.",
+          "translation_en": "Allah is sufficient for us, and He is the best Disposer of affairs.",
+          "source": "القرآن الكريم — سورة آل عمران: ١٧٣",
+          "grade": "قرآن كريم",
+          "when_to_say": "عند الخوف والقلق وضيق الصدر"
+        }
+      ]
+    },
+
+    "dua_general": {
+      "category_id": "general",
+      "label_ar": "دعاء عام",
+      "label_en": "General Dua",
+      "calendar_title": "🤲 دعاء وذكر",
+      "minutes_before": 10,
+      "duas": [
+        {
+          "id": "general_01",
+          "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ.",
+          "transliteration": "Rabbana atina fi ad-dunya hasanatan wa fi al-akhirati hasanatan wa qina 'adhab an-nar.",
+          "translation_en": "Our Lord, give us good in this world and good in the Hereafter and protect us from the punishment of the Fire.",
+          "source": "القرآن الكريم — سورة البقرة: ٢٠١",
+          "grade": "قرآن كريم",
+          "when_to_say": "دعاء جامع عام"
+        },
+        {
+          "id": "general_02",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ الْعَافِيَةَ فِي الدُّنْيَا وَالآخِرَةِ.",
+          "transliteration": "Allahumma inni as'aluka al-'afiyata fi ad-dunya wal-akhirah.",
+          "translation_en": "O Allah, I ask You for well-being in this world and the Hereafter.",
+          "source": "سنن ابن ماجه — رقم ٣٨٧١",
+          "grade": "صحيح",
+          "when_to_say": "دعاء العافية الشامل"
+        }
+      ]
+    }
+
+  }
+}

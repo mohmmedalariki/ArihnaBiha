@@ -11,7 +11,7 @@ class Settings(BaseSettings):
 
     # ── المسارات ──
     BASE_DIR: Path = Path(__file__).parent.parent.parent
-    DATA_DIR: Path = BASE_DIR / "data"
+    DATA_DIR: Path = Path(__file__).parent.parent / "data"
 
     # ── معلومات التطبيق ──
     APP_NAME: str = "أرحنا بها"
