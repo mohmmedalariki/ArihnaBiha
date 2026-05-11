@@ -1,13 +1,17 @@
 import json
 import re
 import unicodedata
+from pathlib import Path
 from app.core.config import settings
+
+# Compute data directory relative to THIS file: services/ -> app/ -> data/
+_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
 class AIClassifier:
     """مصنّف الأحداث المحلي يعتمد على الكلمات المفتاحية (بديل للذكاء الاصطناعي)"""
 
     def __init__(self):
-        DICT_PATH = settings.DATA_DIR / "keyword_matcher.json"
+        DICT_PATH = _DATA_DIR / "keyword_matcher.json"
         with open(DICT_PATH, encoding="utf-8") as f:
             dictionary = json.load(f)
             self.categories = sorted(dictionary["categories"], key=lambda c: c["priority"])

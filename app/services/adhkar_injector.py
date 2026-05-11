@@ -7,8 +7,11 @@ from app.services.ai_classifier import ai_classifier
 from app.services.google_calendar import calendar_service
 from app.core.config import settings
 
+# Compute data directory relative to THIS file: services/ -> app/ -> data/
+_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+
 def _load_adhkar() -> dict:
-    filepath = settings.DATA_DIR / "adhkar.json"
+    filepath = _DATA_DIR / "adhkar.json"
     with open(filepath, "r", encoding="utf-8") as f:
         return json.load(f)
 
